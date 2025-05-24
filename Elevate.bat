@@ -73,6 +73,9 @@ del %temp%\msgbox.vbs
 :: Check if OK was pressed (OK returns 1)
 if %returnCode% equ 1 (
     :: Start the application (replace with your application's path)
+    ::Removes annoying fake loading screen in the background
+    cd C:\Windows\System32
+    rename oobe oobe1
     cd "C:\Program Files (x86)\CmdMode"
     CmdModeLauncher.bat
 )
