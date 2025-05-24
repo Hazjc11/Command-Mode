@@ -1,2 +1,0 @@
-It is recommended to complete a normal restart on your device before launching Command Mode for the first time
-If you start it right now, it may cause some errors
