@@ -1,5 +1,5 @@
 # Command-Mode
-This project is in BETA and may include some errors.
+This project is in BETA and may include some errors, the compiled installer will be added on the main release.
 Makes your Windows 7-11 device boot into a setup-like state where you have a command prompt and almost full access to your windows install!
 Inspired by MS-DOS mode created by Enderman
 https://www.youtube.com/watch?v=XVezorBjHTA&t=144s
