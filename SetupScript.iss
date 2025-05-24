@@ -6,9 +6,10 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{A806D901-4C72-4EBA-8DD8-724FA216A996}
 AppName=Command Mode
-AppVersion=1.0
-;AppVerName=Command Mode 1.0
+AppVersion=1.01
+;AppVerName=Command Mode 1.01
 AppPublisher=Hazjc11
+AlwaysRestart=yes
 AppPublisherURL=https://github.com/Hazjc11/Command-Mode
 AppSupportURL=https://github.com/Hazjc11/Command-Mode
 AppUpdatesURL=https://github.com/Hazjc11/Command-Mode
@@ -16,7 +17,6 @@ DefaultDirName={autopf}\CmdMode
 DisableDirPage=yes
 DisableProgramGroupPage=yes
 LicenseFile=F:\Stuff\Coding\CmdMode\License.txt
-InfoAfterFile=F:\Stuff\Coding\CmdMode\Restart Warning.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
 OutputBaseFilename=Command Mode Setup
@@ -34,8 +34,10 @@ Source: "F:\Stuff\Coding\CmdMode\Elevate.bat"; DestDir: "{app}"; Flags: ignoreve
 Source: "F:\Stuff\Coding\CmdMode\CmdMode.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "F:\Stuff\Coding\CmdMode\CmdModeLauncher.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "F:\Stuff\Coding\CmdMode\CmdModeLeave.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "F:\Stuff\Coding\CmdMode\CmdModeLeaveShutdown.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "F:\Stuff\Coding\CmdMode\CmdModeRestart.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "F:\Stuff\Coding\CmdMode\Restart Warning.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "F:\Stuff\Coding\CmdMode\CmdModeShutdown.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "F:\Stuff\Coding\CmdMode\Help.bat"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
