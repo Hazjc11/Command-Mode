@@ -6,7 +6,7 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{A806D901-4C72-4EBA-8DD8-724FA216A996}
 AppName=Command Mode
-AppVersion=1.01
+AppVersion=1.02
 ;AppVerName=Command Mode 1.01
 AppPublisher=Hazjc11
 AlwaysRestart=yes
@@ -38,6 +38,7 @@ Source: "F:\Stuff\Coding\CmdMode\CmdModeLeaveShutdown.bat"; DestDir: "{app}"; Fl
 Source: "F:\Stuff\Coding\CmdMode\CmdModeRestart.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "F:\Stuff\Coding\CmdMode\CmdModeShutdown.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "F:\Stuff\Coding\CmdMode\Help.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "F:\Stuff\Coding\CmdMode\Firm.bat"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
